@@ -1,0 +1,67 @@
+header {
+  width: 100%;
+  background-color: #FCE6F4;
+  height: 100px;
+}
+
+.navbar-brand {
+  font-family: "Yeseva One", cursive;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  margin-top: 20px;
+  color: #E30C99 !important;
+}
+
+.navbar-nav {
+  margin-right: 50px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  margin-right: 40px;
+  color: #E30C99 !important;
+}
+.nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+footer {
+  width: 100%;
+  background-color: #E30C99;
+}
+
+#footer-logo {
+  margin-top: 25px;
+}
+
+.navbar-brand2 {
+  font-family: "Yeseva One", cursive;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  color: #ffffff !important;
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FCE6F4;
+  margin-top: 7px;
+}
+
+.row.footer {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.fab {
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.fab:hover {
+  color: #FCE6F4;
+}

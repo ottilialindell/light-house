@@ -1,0 +1,38 @@
+footer { 
+    width: 100%; 
+    background-color: #E30C99;
+}
+
+#footer-logo { 
+    margin-top: 25px;
+}
+.navbar-brand2 { 
+    font-family: 'Yeseva One', cursive; 
+    font-size: 20px; 
+    letter-spacing: 0.7px; 
+    color: #ffffff !important;
+}
+
+.footer-text { 
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 14px; 
+    line-height: 16px; 
+    color: #FCE6F4; 
+    margin-top: 7px;
+}
+
+.row.footer { 
+    margin-left: 15px; 
+    margin-top: 20px;
+}
+
+.fab { 
+    color:#ffffff; 
+    margin-top: 30px; 
+    margin-left: 20px; 
+    &:hover { 
+        color: #FCE6F4; 
+    }
+}
