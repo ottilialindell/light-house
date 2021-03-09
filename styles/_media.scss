@@ -1,0 +1,14 @@
+@media (min-width: 800px) {
+    .grid__container { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
