@@ -1,55 +1,30 @@
 
 header {
-    max-width: 1110px;
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     background-color: #FCE6F4;
     height: 100px;
 }
 
-.header__right {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.header__left {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header__logo {
+.navbar-brand {
     font-family: 'Yeseva One', cursive;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 0.7px;
-    color: #E30C99;
+    margin-top: 20px;
+    color: #E30C99 !important;
 }
 
-.nav {
-    max-width: 1110px;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.nav__list { 
-    width: 100%;
-    list-style: none;
-    display: inline-flex;
-    justify-content: flex-end;
-}
-
-.nav__li {
-    list-style: none;
-    display: inline-flex;
-    justify-content: flex-end;
-    margin-right: 30px;
+.navbar-nav {
+    margin-right: 50px;
+    margin-top: 20px;
     font-family: 'Roboto', sans-serif;
-    color:  #E30C99;
+ 
+}
+
+.nav-link {
+    margin-right: 40px;
+    color:  #E30C99 !important;
+    &:hover {
+        color: #FFFFFF !important;
+    }
 }
 
