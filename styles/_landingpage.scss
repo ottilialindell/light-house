@@ -1,0 +1,128 @@
+
+
+.white {
+    padding: 20px;
+    min-height: 300px;
+}
+
+h1 {
+    font-family: "Yeseva One", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #E30C99;
+}
+
+.text-about {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E30C99;
+    margin-top: 20px;
+}
+
+.button-contact {
+    width: 186px;
+    height: 42px;
+    background: #F6B6E0;
+    font-family: "Yeseva One", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    margin-top: 30px;
+
+    &:hover {
+        background: #E30C99;
+    }
+}
+
+.pink {
+    padding: 20px;
+    background-color: #E30C99;
+    min-height: 300px;
+}
+
+.main-news {
+    font-family: "Yeseva One", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #F6B6E0;
+}
+
+.text-news {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FCE6F4;
+    margin-top: 20px;
+}
+
+.button-products {
+    width: 186px;
+    height: 42px;
+    background: #FCE6F4;
+    font-family: "Yeseva One", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #E30C99;
+    border:none;
+    padding: 5px;
+    margin-top: 30px;
+    &:hover {
+        background:#FFFFFF;
+    }
+}
+
+.esaias {
+    margin-top: 20px;
+}
+
+.main-esaias {
+    font-family: "Yeseva One", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #F6B6E0;
+}
+
+.text-esaias {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E30C99;
+    margin-top: 20px;
+}
+
+.button-esaias {
+    width: 186px;
+    height: 42px;
+    background: #FCE6F4;
+    font-family: "Yeseva One", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #E30C99;
+    border:none;
+    padding: 5px;
+    margin-top: 30px;
+    &:hover {
+        background:#FFFFFF;
+    }
+}
