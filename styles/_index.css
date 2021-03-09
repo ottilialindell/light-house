@@ -112,6 +112,9 @@ h1 {
   padding: 20px;
   background-color: #E30C99;
   min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-news {
