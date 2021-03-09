@@ -76,6 +76,7 @@
     grid-row: 1/5;
     grid-column: 2/4;
     background-image: url(../images/img-1-m.png);
+    display: inline-block;
 
     &:hover {
         background-image: url(../images/img-2-hover-m.png); 
@@ -120,7 +121,6 @@
 .grid__item_8 {
     grid-row: 6/11;
     grid-column: 4/6;
-    background-image: url(../images/img-2-m.png);
 
     &:hover {
         background-image: url(../images/test-bild-hover.png); 
@@ -134,4 +134,21 @@
 
 #photo3:hover {
     background-image: url(../images/img-3-hover-m.jpg); 
+}
+
+.card {
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
 }
