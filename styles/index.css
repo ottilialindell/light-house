@@ -110,11 +110,6 @@ header {
 .grid__item_2 {
   grid-row: 1/5;
   grid-column: 2/4;
-  background-image: url(../images/img-1-m.png);
-  display: inline-block;
-}
-.grid__item_2:hover {
-  background-image: url(../images/img-2-hover-m.png);
 }
 
 .grid__item_3 {
@@ -125,10 +120,6 @@ header {
 .grid__item_4 {
   grid-row: 1/5;
   grid-column: 4/6;
-  background-image: url(..images/img-2-m.png);
-}
-.grid__item_4:hover {
-  background-image: url(../images/test-bild-hover.png);
 }
 
 .grid__item_5 {
@@ -136,13 +127,9 @@ header {
   grid-column: 4/6;
 }
 
-.card_6 {
+.grid__item_6 {
   grid-row: 6/11;
   grid-column: 2/4;
-  background-image: url(../images/img-3-m.jpg);
-}
-.card_6:hover {
-  background-image: url(../images/test-bild-hover.png);
 }
 
 .grid__item_7 {
@@ -154,36 +141,10 @@ header {
   grid-row: 6/11;
   grid-column: 4/6;
 }
-.grid__item_8:hover {
-  background-image: url(../images/test-bild-hover.png);
-}
 
 .grid__item_9 {
   grid-row: 11/12;
   grid-column: 4/6;
-}
-
-#photo3:hover {
-  background-image: url(../images/img-3-hover-m.jpg);
-}
-
-.card {
-  width: 130px;
-  height: 195px;
-  position: relative;
-  display: inline-block;
-}
-
-.card .img-top {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-
-.card:hover .img-top {
-  display: inline;
 }
 
 footer {
