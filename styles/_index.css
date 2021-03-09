@@ -66,6 +66,14 @@ footer {
   color: #FCE6F4;
 }
 
+h1, h2, h3, h4 {
+  font-family: "yeseva one", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
 .white {
   padding: 20px;
   min-height: 300px;
@@ -193,4 +201,61 @@ h1 {
 }
 .button-esaias:hover {
   background: #FFFFFF;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #E396C7;
+  margin-top: 20px;
+}
+
+.newsletter h2 {
+  color: white;
+  font-size: 48px;
+}
+
+.txt-button {
+  width: 400px;
+  height: 70px;
+  background: #f1f1f199;
+  border-radius: 40px;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.txt-button input {
+  width: 100%;
+  height: 70px;
+  border-radius: 40px;
+  border: 0;
+  background: none;
+  padding: 0 30px;
+  outline: none;
+  font-size: 15px;
+  padding-right: 80px;
+  box-shadow: 0 0 50px #00000060;
+}
+
+.txt-button button {
+  background: black;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s linear;
+}
+
+txt-button button:hover {
+  opacity: 0.5;
 }
