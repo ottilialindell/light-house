@@ -147,6 +147,25 @@ header {
   grid-column: 4/6;
 }
 
+@media (min-width: 800px) {
+  .grid__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .grid__item_1 {
+    visibility: hidden;
+  }
+}
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+
+  #sidebar.active {
+    margin-left: 0;
+  }
+}
 footer {
   width: 100%;
   background-color: #E30C99;
@@ -190,6 +209,11 @@ footer {
 @media (min-width: 800px) {
   .grid__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .grid__item_1 {
+    visibility: hidden;
   }
 }
 @media (max-width: 768px) {

@@ -4,6 +4,12 @@
     }
   }
 
+  @media (max-width: 400px) {
+    .grid__item_1 { 
+        visibility: hidden;
+    }
+  }
+
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
