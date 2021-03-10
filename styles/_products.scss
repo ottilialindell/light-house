@@ -26,6 +26,7 @@ main {
     margin-left: 10px;
     &:hover {
         color: #E30C99;
+        cursor: pointer;
     }
 }
 
@@ -55,6 +56,7 @@ main {
     padding-top: 10px;
     &:hover {
         color: #E30C99;
+        cursor: pointer;
     }
 }
 
@@ -84,11 +86,16 @@ main {
     grid-column-gap:0.5em;
 }
 */
+
 .grid__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax (100px)) 1fr 1fr;
     grid-template-rows: 10, 1fr;
     grid-column-gap:0.5em;
+    @media screen and (max-width: 400px) {
+          display: block;
+          max-width: 320px;
+        }
 }
 
 
@@ -141,5 +148,3 @@ main {
     grid-row: 11/12;
     grid-column: 4/6;
 }
-
-@import 'media';

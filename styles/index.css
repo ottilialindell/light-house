@@ -63,6 +63,7 @@ main {
 }
 .product:hover {
   color: #E30C99;
+  cursor: pointer;
 }
 
 .pricing {
@@ -91,6 +92,7 @@ main {
 }
 .grid__li:hover {
   color: #E30C99;
+  cursor: pointer;
 }
 
 .photo {
@@ -122,6 +124,12 @@ main {
   grid-template-columns: repeat(auto-fit, minmax 100px) 1fr 1fr;
   grid-template-rows: 10, 1fr;
   grid-column-gap: 0.5em;
+}
+@media screen and (max-width: 400px) {
+  .grid__container {
+    display: block;
+    max-width: 320px;
+  }
 }
 
 .grid__item_1 {
@@ -173,13 +181,6 @@ main {
   grid-column: 4/6;
 }
 
-/*
-@media (max-width: 300px) {
-    .grid__container {
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
-  }
-  */
 footer {
   width: 100%;
   background-color: #E30C99;
@@ -219,11 +220,3 @@ footer {
 .fab:hover {
   color: #FCE6F4;
 }
-
-/*
-@media (max-width: 300px) {
-    .grid__container {
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
-  }
-  */
