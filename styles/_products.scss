@@ -1,9 +1,19 @@
+<<<<<<< HEAD
+=======
+h1,h2,h3 {
+    font-family: 'Yeseva One', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+>>>>>>> products
 main {
     width: 100%;
 }
 
 .lightning__main {
-    font-family: 'Yeseva One', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -16,9 +26,14 @@ main {
     font-family: 'Yeseva One', cursive;
     font-size: 14px;
     margin-top: 5px;
+<<<<<<< HEAD
     margin-left: 20px;
+=======
+    margin-left: 10px;
+>>>>>>> products
     &:hover {
         color: #E30C99;
+        cursor: pointer;
     }
 }
 
@@ -28,7 +43,6 @@ main {
 }
 
 .pricing {
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-left: 10px;
 }
@@ -40,10 +54,13 @@ main {
     font-size: 16px;
     color:  #000000;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .grid__ul {
     list-style-type: none;
+
 }
 
 .grid__li {
@@ -51,20 +68,51 @@ main {
     padding-top: 10px;
     &:hover {
         color: #E30C99;
+        cursor: pointer;
     }
 }
 
+<<<<<<< HEAD
+=======
+
+.photo {
+    overflow: hidden;
+}
+
+>>>>>>> products
 .pink {
     background-color: #FCE6F4;
     max-height: 60px;
 }
 
+
+/*
 .grid__container {
     display: grid;
     grid-template-columns: 6, 1fr;
     grid-template-rows: 10, 1fr;
     grid-column-gap:0.5em;
 }
+
+.grid__container {
+    display: grid;
+    grid-template-columns: minmax(100px) 1fr 1fr;
+    grid-template-rows: 10, 1fr;
+    grid-column-gap:0.5em;
+}
+*/
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (100px)) 1fr 1fr;
+    grid-template-rows: 10, 1fr;
+    grid-column-gap:0.5em;
+    @media screen and (max-width: 400px) {
+          display: block;
+          max-width: 320px;
+        }
+}
+
 
 .grid__item_1 {
     grid-row: 1/12;
@@ -83,6 +131,7 @@ main {
 .grid__item_3 {
     grid-row: 5/6;
     grid-column: 2/4;
+
 }
 
 .grid__item_4 {

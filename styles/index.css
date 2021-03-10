@@ -34,12 +34,27 @@ header {
   color: #FFFFFF !important;
 }
 
+<<<<<<< HEAD
 main {
   width: 100%;
 }
 
 .lightning__main {
+=======
+h1, h2, h3 {
+>>>>>>> products
   font-family: "Yeseva One", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  width: 100%;
+}
+
+.lightning__main {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -52,10 +67,15 @@ main {
   font-family: "Yeseva One", cursive;
   font-size: 14px;
   margin-top: 5px;
+<<<<<<< HEAD
   margin-left: 20px;
+=======
+  margin-left: 10px;
+>>>>>>> products
 }
 .product:hover {
   color: #E30C99;
+  cursor: pointer;
 }
 
 .photo {
@@ -64,7 +84,6 @@ main {
 }
 
 .pricing {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   margin-left: 10px;
 }
@@ -76,6 +95,8 @@ main {
   font-size: 16px;
   color: #000000;
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .grid__ul {
@@ -88,18 +109,47 @@ main {
 }
 .grid__li:hover {
   color: #E30C99;
+  cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+.photo {
+  overflow: hidden;
+}
+
+>>>>>>> products
 .pink {
   background-color: #FCE6F4;
   max-height: 60px;
 }
 
+/*
+.grid__container {
+    display: grid;
+    grid-template-columns: 6, 1fr;
+    grid-template-rows: 10, 1fr;
+    grid-column-gap:0.5em;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: minmax(100px) 1fr 1fr;
+    grid-template-rows: 10, 1fr;
+    grid-column-gap:0.5em;
+}
+*/
 .grid__container {
   display: grid;
-  grid-template-columns: 6, 1fr;
+  grid-template-columns: repeat(auto-fit, minmax 100px) 1fr 1fr;
   grid-template-rows: 10, 1fr;
   grid-column-gap: 0.5em;
+}
+@media screen and (max-width: 400px) {
+  .grid__container {
+    display: block;
+    max-width: 320px;
+  }
 }
 
 .grid__item_1 {
@@ -189,19 +239,4 @@ footer {
 }
 .fab:hover {
   color: #FCE6F4;
-}
-
-@media (min-width: 800px) {
-  .grid__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 768px) {
-  #sidebar {
-    margin-left: -250px;
-  }
-
-  #sidebar.active {
-    margin-left: 0;
-  }
 }
