@@ -167,6 +167,11 @@ main {
   grid-column: 4/6;
 }
 
+@media screen and (max-width: 800px) {
+  #img-1 {
+    background-image: url(..images/img-3-s.jpg);
+  }
+}
 footer {
   width: 100%;
   background-color: #E30C99;
@@ -205,4 +210,10 @@ footer {
 }
 .fab:hover {
   color: #FCE6F4;
+}
+
+@media screen and (max-width: 800px) {
+  #img-1 {
+    background-image: url(..images/img-3-s.jpg);
+  }
 }
