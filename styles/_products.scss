@@ -66,23 +66,31 @@ main {
 .pink {
     background-color: #FCE6F4;
     max-height: 60px;
-    max-width: 800px;
 }
-/*
-.grid__container {
-    display: grid;
-    grid-template-columns: 12, 1fr;
-    grid-template-rows: 10, 1fr;
-    grid-column-gap:0.5em;
-}
-*/
 
+
+/*
 .grid__container {
     display: grid;
     grid-template-columns: 6, 1fr;
     grid-template-rows: 10, 1fr;
     grid-column-gap:0.5em;
 }
+
+.grid__container {
+    display: grid;
+    grid-template-columns: minmax(100px) 1fr 1fr;
+    grid-template-rows: 10, 1fr;
+    grid-column-gap:0.5em;
+}
+*/
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (100px)) 1fr 1fr;
+    grid-template-rows: 10, 1fr;
+    grid-column-gap:0.5em;
+}
+
 
 .grid__item_1 {
     grid-row: 1/12;
