@@ -1,0 +1,286 @@
+
+/* Global */
+
+* {
+box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'yeseva one', sans-serif;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+p {
+  font-family: 'roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* Big screens */
+
+.big-container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+/* Global Header */
+
+header {
+ width: 100%;
+ background-color: #FCE6F4;
+ height: 100px;
+}
+ 
+.navbar-brand {
+ font-family: 'Yeseva One', cursive;
+ font-size: 20px;
+ letter-spacing: 0.7px;
+ margin-top: 20px;
+ color: #E30C99 !important;
+}
+ 
+.navbar-nav {
+ margin-right: 50px;
+ margin-top: 20px;
+ font-family: 'Roboto', sans-serif;
+ 
+}
+ 
+.nav-link {
+ margin-right: 40px;
+ color: #E30C99 !important;
+ &:hover {
+ color: #FFFFFF !important;
+ }
+}
+
+
+/* Section below header */
+
+.text-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    height: 200px;
+}
+
+.text-title {
+margin-bottom: 0px;
+}
+
+.dot {
+  color: #E30C99;
+  font-size: 40px;
+}
+
+/* Contact Section */
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 0px;
+}
+
+.light-store {
+  color: #E30C99;
+  font-size: 24px;
+}
+
+/* Contact form */
+  
+	
+.form-control {
+  background-color: #f2f6f8;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11); 
+  margin: 20px 10px 20px 20px; 
+}
+
+		
+.thick {
+  height: 60px;
+  padding: 15px 80px;
+}
+		
+	
+.message .form-control {
+  padding: 20px 80px;
+}
+	
+::placeholder {
+  font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+  font-size: 18px;
+  color: #838788;
+}
+	
+  input,
+  textarea {
+	font-family: 'Quicksand', sans-serif;
+  color: #212529;
+  font-size: 20px;
+}
+	
+  
+.btn.btn-primary {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  line-height: 40px;
+  padding: 0 60px;
+  border: 0;
+  margin-left: 35px;
+  border-radius: 50px;
+  background-color: #E30C99;
+  background-size: 300% 100%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color:white;
+}
+
+.btn.btn-primary:hover:enabled {
+  box-shadow: 0 0.5em 0.5em -0.4em #ff923cba;
+  background-size: 100% 100%;
+  transform: translateY(-0.15em);
+}
+
+/* Newsletter */
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #E396C7;
+}
+
+.newsletter h2 {
+  color: white;
+  font-size: 48px;
+  margin-top: 40px;
+}
+
+.txt-button {
+  width: 400px;
+  height: 70px;
+  background: #f1f1f199;
+  border-radius: 40px;
+  position: relative;
+  margin-bottom:60px;
+}
+
+.txt-button input {
+  width: 100%;
+  height: 70px;
+  border-radius: 40px;
+  border: 0;
+  background: none;
+  padding: 0 30px;
+  outline: none;
+  font-size: 15px;
+  padding-right: 80px;
+  box-shadow: 0 0 50px #00000060;
+}
+
+.txt-button button {
+  background:black;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s linear;
+}
+
+txt-button button:hover {
+  opacity: .5;
+}
+
+/* Footer */
+
+footer {
+ width: 100%;
+ background-color: #E30C99;
+}
+ 
+#footer-logo {
+ margin-top: 25px;
+}
+ 
+.navbar-brand2 {
+ font-family: 'Yeseva One', cursive;
+ font-size: 20px;
+ letter-spacing: 0.7px;
+ color: #ffffff !important;
+}
+ 
+.footer-text {
+ font-family: 'Roboto', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 16px;
+ color: #FCE6F4;
+ margin-top: 7px;
+}
+ 
+.row.footer {
+ margin-left: 15px;
+ margin-top: 20px;
+}
+ 
+.fab {
+ color:#ffffff;
+ margin-top: 30px;
+ margin-left: 20px;
+ &:hover {
+ color: #FCE6F4;
+ }
+}
