@@ -42,6 +42,10 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  width: 100%;
+}
+
 .lightning__main {
   font-style: normal;
   font-weight: normal;
@@ -55,7 +59,7 @@ p {
   font-family: "Yeseva One", cursive;
   font-size: 14px;
   margin-top: 5px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .product:hover {
   color: #E30C99;
@@ -63,7 +67,7 @@ p {
 
 .pricing {
   font-size: 14px;
-  margin-left: auto;
+  margin-left: 10px;
 }
 
 .nav__grid {
@@ -73,6 +77,8 @@ p {
   font-size: 16px;
   color: #000000;
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .grid__ul {
@@ -88,16 +94,23 @@ p {
 }
 
 .photo {
-  width: 100%;
-  height: 100%;
   overflow: hidden;
 }
 
 .pink {
   background-color: #FCE6F4;
   max-height: 60px;
+  max-width: 800px;
 }
 
+/*
+.grid__container {
+    display: grid;
+    grid-template-columns: 12, 1fr;
+    grid-template-rows: 10, 1fr;
+    grid-column-gap:0.5em;
+}
+*/
 .grid__container {
   display: grid;
   grid-template-columns: 6, 1fr;
@@ -154,25 +167,6 @@ p {
   grid-column: 4/6;
 }
 
-@media (min-width: 800px) {
-  .grid__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 400px) {
-  .grid__item_1 {
-    visibility: hidden;
-  }
-}
-@media (max-width: 768px) {
-  #sidebar {
-    margin-left: -250px;
-  }
-
-  #sidebar.active {
-    margin-left: 0;
-  }
-}
 footer {
   width: 100%;
   background-color: #E30C99;
@@ -211,24 +205,4 @@ footer {
 }
 .fab:hover {
   color: #FCE6F4;
-}
-
-@media (min-width: 800px) {
-  .grid__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 400px) {
-  .grid__item_1 {
-    visibility: hidden;
-  }
-}
-@media (max-width: 768px) {
-  #sidebar {
-    margin-left: -250px;
-  }
-
-  #sidebar.active {
-    margin-left: 0;
-  }
 }
