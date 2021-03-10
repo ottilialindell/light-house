@@ -105,7 +105,7 @@ main {
 
 .pricing {
   font-size: 14px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .nav__grid {
@@ -395,7 +395,7 @@ h1 {
   color: white;
   font-size: 48px;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .txt-button {
@@ -582,22 +582,26 @@ header {
 }
 
 ::placeholder {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   color: #838788;
 }
 
 input,
 textarea {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   color: #212529;
   font-size: 20px;
 }
 
 .btn.btn-primary {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   height: 50px;
   line-height: 40px;

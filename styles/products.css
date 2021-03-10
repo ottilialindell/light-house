@@ -313,7 +313,7 @@ main {
 
 .product {
   font-family: "Yeseva One", cursive;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 5px;
   margin-left: 20px;
 }
@@ -329,7 +329,8 @@ main {
 
 .pricing {
   font-size: 14px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-top: -10px;
 }
 
 .nav__grid {

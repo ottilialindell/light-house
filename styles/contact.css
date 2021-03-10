@@ -15,6 +15,8 @@ h2 {
 h3 {
   font-size: 34px;
   margin-bottom: 10px;
+  margin-top: 20px;
+
 }
 
 h4 {
@@ -29,7 +31,6 @@ p {
 /* Big screens */
 .big-container {
   margin: 0 auto;
-  max-width: 1400px;
 }
 
 /* Global Header */
@@ -93,7 +94,7 @@ header {
 
 /* Contact Section */
 .wrapper {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -135,6 +136,7 @@ header {
 }
 
 .column-2 {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,6 +153,7 @@ header {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 0px;
           flex: 1 0 0px;
+          
 }
 
 .light-store {
@@ -178,42 +181,45 @@ header {
 }
 
 ::-webkit-input-placeholder {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #838788;
 }
 
 :-ms-input-placeholder {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #838788;
 }
 
 ::-ms-input-placeholder {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #838788;
 }
 
 ::placeholder {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   color: #838788;
 }
 
 input,
 textarea {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   color: #212529;
   font-size: 20px;
 }
 
 .btn.btn-primary {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   height: 50px;
@@ -261,6 +267,7 @@ textarea {
   color: white;
   font-size: 48px;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .txt-button {
@@ -270,6 +277,11 @@ textarea {
   border-radius: 40px;
   position: relative;
   margin-bottom: 60px;
+}
+@media screen and (max-width: 400px) {
+  .txt-button {
+    width: 200px;
+  }
 }
 
 .txt-button input {
