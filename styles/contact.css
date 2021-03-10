@@ -1,3 +1,35 @@
+
+header {
+  width: 100%;
+  background-color: #FCE6F4;
+  height: 100px;
+}
+
+.navbar-brand {
+  font-family: 'Yeseva One', cursive;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  margin-top: 20px;
+  color: #E30C99 !important;
+}
+
+.navbar-nav {
+  margin-right: 50px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-link {
+  margin-right: 40px;
+  color:  #E30C99 !important;
+}
+
+.nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+
 /* Global */
 * {
   -webkit-box-sizing: border-box;
@@ -41,12 +73,18 @@ header {
   height: 100px;
 }
 
+.nav-item .fas {
+  font-size: 20px;
+  color:#E30C99;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
 .navbar-brand {
   font-family: 'Yeseva One', cursive;
   font-size: 20px;
   letter-spacing: 0.7px;
-  margin-top: 20px;
-  color: #E30C99 !important;
+  color: #E30C99;
 }
 
 .navbar-nav {

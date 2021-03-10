@@ -1,15 +1,12 @@
+
 header {
   width: 100%;
   background-color: #FCE6F4;
   height: 100px;
 }
 
-.far .fa-lightbulb {
-  padding: 20px;
-}
-
 .navbar-brand {
-  font-family: "Yeseva One", cursive;
+  font-family: 'Yeseva One', cursive;
   font-size: 20px;
   letter-spacing: 0.7px;
   margin-top: 20px;
@@ -19,16 +16,27 @@ header {
 .navbar-nav {
   margin-right: 50px;
   margin-top: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-item .fas {
+  font-size: 20px;
+  color:#E30C99;
+  margin-top: 7px;
+  cursor: pointer;
 }
 
 .nav-link {
   margin-right: 40px;
-  color: #E30C99 !important;
+  color:  #E30C99 !important;
 }
+
 .nav-link:hover {
   color: #FFFFFF !important;
 }
+
+
 
 footer {
   width: 100%;
@@ -492,8 +500,7 @@ header {
   font-family: "Yeseva One", cursive;
   font-size: 20px;
   letter-spacing: 0.7px;
-  margin-top: 20px;
-  color: #E30C99 !important;
+  color: #E30C99;
 }
 
 .navbar-nav {
