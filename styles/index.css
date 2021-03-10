@@ -1,11 +1,3 @@
-body {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-}
-
 header {
   width: 100%;
   background-color: #FCE6F4;
@@ -34,20 +26,52 @@ header {
   color: #FFFFFF !important;
 }
 
-<<<<<<< HEAD
-main {
+footer {
   width: 100%;
+  background-color: #E30C99;
 }
 
-.lightning__main {
-=======
-h1, h2, h3 {
->>>>>>> products
+#footer-logo {
+  margin-top: 25px;
+}
+
+.navbar-brand2 {
   font-family: "Yeseva One", cursive;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  color: #ffffff !important;
 }
 
-p {
+.footer-text {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FCE6F4;
+  margin-top: 15px;
+}
+
+.row.footer {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.fab {
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.fab:hover {
+  color: #FCE6F4;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 
 main {
@@ -67,11 +91,7 @@ main {
   font-family: "Yeseva One", cursive;
   font-size: 14px;
   margin-top: 5px;
-<<<<<<< HEAD
   margin-left: 20px;
-=======
-  margin-left: 10px;
->>>>>>> products
 }
 .product:hover {
   color: #E30C99;
@@ -112,13 +132,6 @@ main {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-=======
-.photo {
-  overflow: hidden;
-}
-
->>>>>>> products
 .pink {
   background-color: #FCE6F4;
   max-height: 60px;
@@ -201,42 +214,232 @@ main {
   grid-column: 4/6;
 }
 
-footer {
-  width: 100%;
-  background-color: #E30C99;
+h1, h2, h3, h4 {
+  font-family: "yeseva one", sans-serif;
 }
 
-#footer-logo {
-  margin-top: 25px;
-}
-
-.navbar-brand2 {
-  font-family: "Yeseva One", cursive;
-  font-size: 20px;
-  letter-spacing: 0.7px;
-  color: #ffffff !important;
-}
-
-.footer-text {
+p {
   font-family: "Roboto", sans-serif;
+}
+
+#container-1 {
+  margin-top: 10px;
+}
+
+.white {
+  padding: 20px;
+  min-height: 300px;
+}
+
+h1 {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  color: #FCE6F4;
-  margin-top: 15px;
+  font-size: 40px;
+  line-height: 46px;
+  color: #E30C99;
 }
 
-.row.footer {
-  margin-left: 15px;
+.text-about {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #E30C99;
   margin-top: 20px;
 }
 
-.fab {
-  color: #ffffff;
+.button-esaias, .button-products, .button-contact {
+  width: 400px;
+  height: 70px;
+  border-radius: 40px;
+}
+
+.button-contact {
+  background: #F6B6E0;
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-align: center;
+  border: none;
   margin-top: 30px;
+}
+.button-contact:hover {
+  background: #E30C99;
+}
+@media (max-width: 400px) {
+  .button-contact {
+    width: 200px;
+  }
+}
+
+.pink {
+  padding: 20px;
+  background-color: #E30C99;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-news {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #F6B6E0;
+}
+
+.text-news {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FCE6F4;
+  margin-top: 20px;
+}
+
+.button-products {
+  background: #FCE6F4;
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  color: #E30C99;
+  border: none;
+  padding: 5px;
+  margin-top: 30px;
+}
+.button-products:hover {
+  background: #FFFFFF;
+}
+@media (max-width: 400px) {
+  .button-products {
+    width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  #col-esaias {
+    margin-left: 5rem;
+  }
+}
+
+.esaias {
+  margin-top: 20px;
+}
+
+.main-esaias {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #F6B6E0;
   margin-left: 20px;
 }
-.fab:hover {
-  color: #FCE6F4;
+
+.text-esaias {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #E30C99;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.button-esaias {
+  background: #FCE6F4;
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  color: #E30C99;
+  border: none;
+  padding: 5px;
+  margin-top: 30px;
+}
+.button-esaias:hover {
+  background: #FFFFFF;
+  opacity: 0.6;
+}
+@media (max-width: 400px) {
+  .button-esaias {
+    width: 200px;
+  }
+}
+
+.fa-angle-right {
+  margin-left: 12px;
+  margin-top: 1px;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #FCE6F4;
+  margin-top: 20px;
+}
+
+.newsletter h3 {
+  color: white;
+  font-size: 48px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.txt-button {
+  width: 400px;
+  height: 70px;
+  background: #f1f1f199;
+  border-radius: 40px;
+  position: relative;
+  margin-bottom: 60px;
+}
+@media (max-width: 400px) {
+  .txt-button {
+    width: 200px;
+  }
+}
+
+.txt-button input {
+  width: 100%;
+  height: 70px;
+  border-radius: 40px;
+  border: 0;
+  background: none;
+  padding: 0 30px;
+  outline: none;
+  font-size: 15px;
+  padding-right: 80px;
+  box-shadow: 0 0 50px #00000060;
+}
+
+.txt-button button {
+  background: #E30C99;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s linear;
+}
+
+txt-button button:hover {
+  opacity: 0.5;
 }
