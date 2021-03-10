@@ -1,6 +1,13 @@
+h1,h2,h3 {
+    font-family: 'Yeseva One', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 .lightning__main {
-    font-family: 'Yeseva One', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -13,13 +20,13 @@
     font-family: 'Yeseva One', cursive;
     font-size: 14px;
     margin-top: 5px;
+    margin-left: 15px;
     &:hover {
         color: #E30C99;
     }
 }
 
 .pricing {
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-left: auto;
 }
@@ -35,6 +42,7 @@
 
 .grid__ul {
     list-style-type: none;
+
 }
 
 .grid__li {
@@ -44,6 +52,8 @@
         color: #E30C99;
     }
 }
+
+
 
 .photo {
     width: 100%;

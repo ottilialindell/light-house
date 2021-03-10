@@ -34,8 +34,15 @@ header {
   color: #FFFFFF !important;
 }
 
-.lightning__main {
+h1, h2, h3 {
   font-family: "Yeseva One", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.lightning__main {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -48,13 +55,13 @@ header {
   font-family: "Yeseva One", cursive;
   font-size: 14px;
   margin-top: 5px;
+  margin-left: 15px;
 }
 .product:hover {
   color: #E30C99;
 }
 
 .pricing {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   margin-left: auto;
 }
