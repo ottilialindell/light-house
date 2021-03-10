@@ -101,9 +101,9 @@ h1 {
 }
 
 .button-contact {
-  width: 186px;
+  width: 400px;
   height: 70px;
-  border-radius: 50%;
+  border-radius: 40px;
   background: #F6B6E0;
   font-family: "Yeseva One", cursive;
   font-style: normal;
@@ -146,9 +146,9 @@ h1 {
 }
 
 .button-products {
-  width: 186px;
+  width: 400px;
   height: 70px;
-  border-radius: 50%;
+  border-radius: 40px;
   background: #FCE6F4;
   font-family: "Yeseva One", cursive;
   font-style: normal;
@@ -190,8 +190,9 @@ h1 {
 }
 
 .button-esaias {
-  width: 186px;
+  width: 400px;
   height: 70px;
+  border-radius: 40px;
   background: #FCE6F4;
   font-family: "Yeseva One", cursive;
   font-style: normal;
@@ -200,13 +201,17 @@ h1 {
   line-height: 25px;
   color: #E30C99;
   border: none;
-  border-radius: 50%;
   padding: 5px;
   margin-top: 30px;
 }
 .button-esaias:hover {
   background: #FFFFFF;
   opacity: 0.6;
+}
+
+.fa-angle-right {
+  margin-left: 12px;
+  margin-top: 1px;
 }
 
 /* Newsletter */
