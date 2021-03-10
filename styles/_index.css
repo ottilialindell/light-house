@@ -74,13 +74,16 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+#container-1 {
+  margin-top: 10px;
+}
+
 .white {
   padding: 20px;
   min-height: 300px;
 }
 
 h1 {
-  font-family: "Yeseva One", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -89,7 +92,6 @@ h1 {
 }
 
 .text-about {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -100,7 +102,8 @@ h1 {
 
 .button-contact {
   width: 186px;
-  height: 42px;
+  height: 70px;
+  border-radius: 50%;
   background: #F6B6E0;
   font-family: "Yeseva One", cursive;
   font-style: normal;
@@ -126,7 +129,6 @@ h1 {
 }
 
 .main-news {
-  font-family: "Yeseva One", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -135,7 +137,6 @@ h1 {
 }
 
 .text-news {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -146,7 +147,8 @@ h1 {
 
 .button-products {
   width: 186px;
-  height: 42px;
+  height: 70px;
+  border-radius: 50%;
   background: #FCE6F4;
   font-family: "Yeseva One", cursive;
   font-style: normal;
@@ -173,6 +175,7 @@ h1 {
   font-size: 36px;
   line-height: 42px;
   color: #F6B6E0;
+  margin-left: 20px;
 }
 
 .text-esaias {
@@ -183,11 +186,12 @@ h1 {
   line-height: 23px;
   color: #E30C99;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .button-esaias {
   width: 186px;
-  height: 42px;
+  height: 70px;
   background: #FCE6F4;
   font-family: "Yeseva One", cursive;
   font-style: normal;
@@ -196,11 +200,13 @@ h1 {
   line-height: 25px;
   color: #E30C99;
   border: none;
+  border-radius: 50%;
   padding: 5px;
   margin-top: 30px;
 }
 .button-esaias:hover {
   background: #FFFFFF;
+  opacity: 0.6;
 }
 
 /* Newsletter */
@@ -210,13 +216,15 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #E396C7;
+  background: #FCE6F4;
   margin-top: 20px;
 }
 
-.newsletter h2 {
+.newsletter h3 {
   color: white;
   font-size: 48px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .txt-button {
@@ -242,7 +250,7 @@ h1 {
 }
 
 .txt-button button {
-  background: black;
+  background: #E30C99;
   border: 0;
   width: 50px;
   height: 50px;
