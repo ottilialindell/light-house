@@ -118,6 +118,11 @@ h1 {
 .button-contact:hover {
   background: #E30C99;
 }
+@media only screen and (max-width: 400px) {
+  .button-contact {
+    width: 200px;
+  }
+}
 
 .pink {
   padding: 20px;
@@ -163,7 +168,17 @@ h1 {
 .button-products:hover {
   background: #FFFFFF;
 }
+@media only screen and (max-width: 400px) {
+  .button-products {
+    width: 200px;
+  }
+}
 
+@media only screen and (min-width: 401px) {
+  #col-esaias {
+    margin-left: 5rem;
+  }
+}
 .esaias {
   margin-top: 20px;
 }
@@ -208,6 +223,11 @@ h1 {
   background: #FFFFFF;
   opacity: 0.6;
 }
+@media only screen and (max-width: 400px) {
+  .button-esaias {
+    width: 200px;
+  }
+}
 
 .fa-angle-right {
   margin-left: 12px;
@@ -239,6 +259,11 @@ h1 {
   border-radius: 40px;
   position: relative;
   margin-bottom: 60px;
+}
+@media only screen and (max-width: 400px) {
+  .txt-button {
+    width: 200px;
+  }
 }
 
 .txt-button input {
