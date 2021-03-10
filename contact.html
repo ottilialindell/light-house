@@ -1,12 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/reset.css">
-    <title>Document</title>
+    <title>Contact Us - Light House</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Styles/contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
 </head>
+
 <body>
-    
+    <div class="big-container">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light" id="banner">
+                <div class="container">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="#">Light House</a>
+
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="text-header">
+            <h2 class="text-title">Contact us</h2>
+            <h4>Get in touch or visit us<b class="dot">.</b></h4>
+        </section>
+        <div class="wrapper">
+            <div class="row">
+                <div class="column-1">
+                    <form>
+                        <!-- Name -->
+                        <div class="form-group position-relative">
+                            <label for="formName" class="d-block">
+                            </label>
+                            <input type="text" id="formName" class="form-control form-control-lg thick"
+                                placeholder="Name">
+                        </div>
+
+                        <!-- E-mail -->
+                        <div class="form-group position-relative">
+                            <label for="formEmail" class="d-block">
+                            </label>
+                            <input type="email" id="formEmail" class="form-control form-control-lg thick"
+                                placeholder="E-mail">
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group message">
+                            <textarea id="formMessage" class="form-control form-control-lg" rows="18"
+                                placeholder="How can we help you?"></textarea>
+                        </div>
+
+                        <!-- Submit btn -->
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="column-2">
+                    <div class="contact-details">
+                        <h3>Call us</h3>
+                        <p>+46761185192</p>
+                    </div>
+                    <h3>Find us at</h3>
+                    <p><span class="light-store"><b>Light House</b></span>. <i>Vasagatan 23, 765 45 Stockholm,
+                            Sweden</i></p>
+                    <img src="img/karta.png" width="400px" alt="Map">
+                    <h3>Follow us</h3>
+                    <div class="social-icons">
+                        <img src="img/facebook.png" width="70px" height="70px" alt="Facebook">
+                        <img src="img/pinterest.png" width="70px" height="70px" alt="Pinterest">
+                        <img src="img/twitter.png" width="70px" height="70px" alt="Twitter">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="newsletter">
+            <h2>Join Our Newsletter</h2>
+            <div class="txt-button">
+                <input type="text" placeholder="Enter Your Email">
+                <button type="button"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+        <footer style="background-color: #E30C99;">
+            <div class="container">
+                <div class="row footer">
+                    <div class="col-lg-6 col-md-12 mb-md-0">
+                        <ul class="list-unstyled">
+                            <li class="footer-text">Light House</li>
+                            <li class="footer-text">Stockholmsvägen 44</li>
+                            <li class="footer-text"> 765 45 Stockholm</li>
+                            <li class="footer-text">+46 87 45 35 66</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <a href="http://instagram.com"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="http://facebook.com"><i class="fab fa-facebook fa-lg"></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footer-logo">
+                        <a class="navbar-brand2" href="#">Light House</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
 </body>
+
+
 </html>
